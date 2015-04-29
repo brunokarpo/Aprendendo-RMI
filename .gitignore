@@ -1,3 +1,6 @@
+#Ignorando pasta target gerada pelo Maven
+*/target/
+
 *.class
 
 # Mobile Tools for Java (J2ME)
