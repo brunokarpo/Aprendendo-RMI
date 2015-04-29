@@ -15,7 +15,7 @@ import br.nom.brunokarpo.rmi.calculadoraServer.implementacao.CalcServiceImpl;
  * Ela quem irá criar a conexão para que o cliente possa requisitar os métodos que serão fornecidos por ele*/
 public class ServerMainStart extends ServerMainBase{
 
-	private static final int PORTA = 1099;
+	private static final int PORTA = 1099; //Porta padrão do RMI (coloquei só para lembrar)
 
 	public ServerMainStart() {
 		super(ICalculadora.class);

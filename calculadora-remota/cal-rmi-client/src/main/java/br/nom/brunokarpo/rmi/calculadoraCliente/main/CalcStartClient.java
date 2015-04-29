@@ -152,7 +152,7 @@ public class CalcStartClient extends ServerMainBase {
 	private ICalculadora getCalculadoraRemota() {
 		if(calculadoraRemota == null) {
 			try {
-				calculadoraRemota = (ICalculadora) getRegistry().lookup("calculo");
+				calculadoraRemota = (ICalculadora) getRegistry().lookup("rmi://192.168.0.56:1099/calculo");
 
 			} catch (Exception e) {
 				System.err.println("Ocorreu um erro ao pegar a referencia remota da calculadora. Fechando tudo");

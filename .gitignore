@@ -1,5 +1,5 @@
 #Ignorando pasta target gerada pelo Maven
-*/target/
+*/**/target/
 
 *.class
 
